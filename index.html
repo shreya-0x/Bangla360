@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="BANGLADESH 360 - Strategic Bilateral Relations Intelligence Platform" />
+<meta name="theme-color" content="#020812" />
+<title>BANGLADESH 360 - Relations Intelligence</title>
+<!-- Inline SVG favicon to prevent 404 errors -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23071522' stroke='%2322d3ee' stroke-width='6'/%3E%3Ccircle cx='50' cy='50' r='24' fill='none' stroke='%23a78bfa' stroke-width='4' stroke-dasharray='4 4'/%3E%3Ccircle cx='50' cy='50' r='10' fill='%2322d3ee'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="styles.css?v=3.4" />
+<!-- Chart.js from CDN - browser-compatible, no build step required -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+<div id="app">
+  <div id="mobile-nav" class="mobile-nav" role="navigation" aria-label="Mobile Navigation"></div>
+  <div class="app-body">
+    <aside id="sidebar" class="sidebar" role="navigation" aria-label="Main Sidebar Navigation"></aside>
+    <main id="content" class="content" role="main"></main>
+  </div>
+</div>
+
+<!-- Global UI Overlays -->
+<div id="search-modal" class="search-modal" role="dialog" aria-modal="true" aria-label="Search relations and intelligence" style="display:none;"></div>
+<div id="hub-modal" class="hub-modal" role="dialog" aria-modal="true" aria-label="Hub Dossier" style="display:none;"></div>
+<div id="compare-modal" class="hub-modal" role="dialog" aria-modal="true" aria-label="Bilateral Comparison" style="display:none;"></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="data.js?v=3.4"></script>
+<script src="script.js?v=3.4"></script>
+</body>
+</html>
